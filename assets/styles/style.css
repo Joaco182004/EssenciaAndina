@@ -31,6 +31,26 @@ a:hover{
 }
 h1{
     font-size: 7.5rem !important;
+    overflow: hidden !important;
+}
+h2{
+    overflow: hidden !important;
+}
+h3{
+    overflow: hidden !important;
+}
+h4{
+    overflow: hidden !important;
+}
+h5{
+    overflow: hidden !important;
+}
+p{
+    overflow: hidden !important;
+}
+section{
+    height: auto !important;
+    min-height: 100vh !important;
 }
 /*navbar*/
 .nav-bar-container{
@@ -76,7 +96,7 @@ h1{
     width: 25px;
     margin-left: .5rem;
     cursor: pointer;
-    
+    margin-right: .5rem !important;
 }
 
 .labeling ul{
@@ -136,7 +156,7 @@ h1{
     font-weight: bolder;
     cursor: pointer;
     outline: none;
-    
+    margin-right: 1.5rem !important;
 }
 
 .iconmenu{
@@ -148,6 +168,7 @@ h1{
 .carousel-cont{
     display: flex;
     flex-direction: column;
+    height: 400px;
 }
 /*presentacion*/
 
@@ -305,7 +326,7 @@ h1{
 .title-ser{
     background-color: white;
     width: 30%;
-    height: 30%; 
+   height: 100px; 
     display: flex;
     justify-content: left;
  overflow: hidden;
@@ -318,10 +339,13 @@ h1{
     grid-template-columns: 0.5fr 0.5fr;
     width: 100%;
     height: 100%;
+    padding-block: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 .descripcion-service{
     width: 100%;
-    height: 100%;
+    height: 300px;
 }
 .serve-cont{
     display: flex;
@@ -572,7 +596,7 @@ h1{
 }
 .soporte-content{
     display: grid;
-
+    padding-block: 1rem !important;
     width: 100vw;
     height: 100%;
     grid-template-columns: 0.5fr 0.5fr;
@@ -698,18 +722,14 @@ h1{
     margin-top: 1rem;
 }
 
-.footer{
+footer{
     width: 100vw;
     height: 250px;
     background-color: rgb(241, 236, 228);
     display: flex;
-    justify-content: center;
+   
 }
-.content-footer{
-    width: 90vw;
-    height: 100%;
 
-}
 .top-footer{
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
@@ -732,6 +752,7 @@ h1{
 .bottom-footer{
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
+    padding-inline: 2rem !important;
 }
 .redes{
     display: flex;
@@ -1184,9 +1205,8 @@ h1{
         overflow: hidden;
         width: 100vw;
         transition:height 1s ease-in ;
-       
     }
- 
+   
     
     .content-slider ul{
         margin-top: 1rem;
@@ -1333,7 +1353,7 @@ h1{
     }
   
     .title-ser,.title-app,.main-title{
-      height: 45%;
+      height: 100px;
    
     }
     .soporte{
